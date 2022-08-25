@@ -14,7 +14,7 @@ button {
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline;
     cursor: pointer;
 }
 
@@ -232,6 +232,7 @@ a:hover {
 .l-bloc h6 a,
 .l-bloc p a {
     color: rgba(0, 0, 0, .6);
+    font-weight: bold;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -335,6 +336,7 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    color : #F3976C!important; 
 }
 
 .navbar-toggle {
@@ -740,6 +742,7 @@ h4 {
 }
 
 .portfolio-thumb {
+    margin:auto;
     margin-bottom: 24px;
 }
 
@@ -751,9 +754,9 @@ h4 {
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
-
+/* modification de rgba pour un meilleur contraste de rgba(165, 147, 99, 0.7) à rgba(65, 52, 19, 0.7)  */
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(65, 52, 19, 0.7);  
     padding: 40px 40px 40px 40px;
 }
 
@@ -766,9 +769,6 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
@@ -822,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
