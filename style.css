@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: #C14F1C; /*changement du color rgba(255,255,255, .7) */
 }
 
 .d-bloc button:hover {
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #C14F1C; /*changement du color rgba(255,255,255, .6) */
 }
 
 .d-bloc .a-btn:hover,
@@ -679,7 +679,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px; 
 }
 
 .tight-width-whitespace {
@@ -771,7 +771,7 @@ h4 {
 
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #FFFFEB;
 }
 
 .tc-white {
@@ -779,7 +779,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #C14F1C; /* changement du couleur pour le contraste */
     color: #FFFFFF!important;
 }
 
@@ -811,10 +811,6 @@ h4 {
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
-}
-
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
 }
 
 .bg-banniere {
