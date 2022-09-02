@@ -872,9 +872,14 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
+
     .bloc {
-        padding-left: env(Safe-area-inset-left, 20px);
+        padding: 0 20px;
+        padding-left: env(safe-area-inset-left);
+        padding-right: env(safe-area-inset-right);
     }
+
+       
     .bloc-group,
     .bloc-group .bloc {
         display: block;
