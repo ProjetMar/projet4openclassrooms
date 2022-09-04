@@ -10,6 +10,9 @@ body {
     border:2px solid #FFFFFF;
     box-shadow: 5px 2px 15px 5px black;
 }
+.image-resize-mode{
+    width: 100px;
+}
 
 a,
 button {
@@ -878,7 +881,7 @@ h4 {
         padding-left: env(safe-area-inset-left);
         padding-right: env(safe-area-inset-right);
     }
-
+    
        
     .bloc-group,
     .bloc-group .bloc {
